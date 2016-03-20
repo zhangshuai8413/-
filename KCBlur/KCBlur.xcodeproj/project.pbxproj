@@ -13,6 +13,7 @@
 		5B2FD02B1C9E4F9B00523958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2FD0291C9E4F9B00523958 /* Main.storyboard */; };
 		5B2FD02D1C9E4F9B00523958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2FD02C1C9E4F9B00523958 /* Assets.xcassets */; };
 		5B2FD0301C9E4F9B00523958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2FD02E1C9E4F9B00523958 /* LaunchScreen.storyboard */; };
+		5B2FD0391C9E520C00523958 /* KCBlurEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FD0381C9E520C00523958 /* KCBlurEffect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5B2FD02C1C9E4F9B00523958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B2FD02F1C9E4F9B00523958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B2FD0311C9E4F9B00523958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2FD0371C9E520C00523958 /* KCBlurEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCBlurEffect.h; sourceTree = "<group>"; };
+		5B2FD0381C9E520C00523958 /* KCBlurEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCBlurEffect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				5B2FD02E1C9E4F9B00523958 /* LaunchScreen.storyboard */,
 				5B2FD0311C9E4F9B00523958 /* Info.plist */,
 				5B2FD0201C9E4F9B00523958 /* Supporting Files */,
+				5B2FD0371C9E520C00523958 /* KCBlurEffect.h */,
+				5B2FD0381C9E520C00523958 /* KCBlurEffect.m */,
 			);
 			path = KCBlur;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2FD0281C9E4F9B00523958 /* ViewController.m in Sources */,
+				5B2FD0391C9E520C00523958 /* KCBlurEffect.m in Sources */,
 				5B2FD0251C9E4F9B00523958 /* AppDelegate.m in Sources */,
 				5B2FD0221C9E4F9B00523958 /* main.m in Sources */,
 			);
